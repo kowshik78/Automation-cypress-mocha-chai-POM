@@ -1,0 +1,129 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-09-27T19:48:52.205Z",
+    "end": "2024-09-27T19:49:08.319Z",
+    "duration": 16114,
+    "testsRegistered": 2,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f0a9f7cd-6bb0-4c6b-a324-adf583e645ed",
+      "title": "",
+      "fullFile": "cypress\\e2e\\myFirst.cy.js",
+      "file": "cypress\\e2e\\myFirst.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "438ea3fd-02d7-400a-9af9-8424d5f44228",
+          "title": "My First Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify title",
+              "fullTitle": "My First Test verify title",
+              "timedOut": null,
+              "duration": 15938,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://web.cloudapper.com\");\ncy.title().should('contain', 'CloudApper');\ncy.get(\"#Email\").type(\"m2sysqa.05+25@gmail.com\");\ncy.get(\"[placeholder=\\\"Password\\\"]\").type(\"M2qatest@13\");\ncy.get(\"[id=\\\"btnLogin\\\"]\").click();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#Email`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#Email`, but never found it.\n    at Context.eval (webpack://cypressautomation/./cypress/e2e/myFirst.cy.js:5:11)",
+                "diff": null
+              },
+              "uuid": "42a85a1d-4b78-4c49-93de-c2b3fa8d7c4d",
+              "parentUUID": "438ea3fd-02d7-400a-9af9-8424d5f44228",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "login",
+              "fullTitle": "My First Test login",
+              "timedOut": null,
+              "duration": 29,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "0855786c-63ba-4842-887c-4f19119c6b16",
+              "parentUUID": "438ea3fd-02d7-400a-9af9-8424d5f44228",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0855786c-63ba-4842-887c-4f19119c6b16"
+          ],
+          "failures": [
+            "42a85a1d-4b78-4c49-93de-c2b3fa8d7c4d"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 15967,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

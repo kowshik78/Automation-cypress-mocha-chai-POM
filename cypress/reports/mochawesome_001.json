@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-09-27T19:31:50.247Z",
+    "end": "2024-09-27T19:32:00.991Z",
+    "duration": 10744,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2922b931-e07c-4913-9317-26cdf1b1c37b",
+      "title": "",
+      "fullFile": "cypress\\e2e\\myFirst.cy.js",
+      "file": "cypress\\e2e\\myFirst.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "31e4764d-9b07-4ac2-83cf-8baad04b3901",
+          "title": "My First Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify title",
+              "fullTitle": "My First Test verify title",
+              "timedOut": null,
+              "duration": 10411,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://web.cloudapper.com\");\ncy.title().should('contain', 'CloudApper');",
+              "err": {},
+              "uuid": "ce095581-63ea-441b-9a3e-bf73fda9c38d",
+              "parentUUID": "31e4764d-9b07-4ac2-83cf-8baad04b3901",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test2",
+              "fullTitle": "My First Test test2",
+              "timedOut": null,
+              "duration": 112,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "18b073ea-2732-4286-9a16-577ab820061d",
+              "parentUUID": "31e4764d-9b07-4ac2-83cf-8baad04b3901",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ce095581-63ea-441b-9a3e-bf73fda9c38d",
+            "18b073ea-2732-4286-9a16-577ab820061d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10523,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
