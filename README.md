@@ -93,6 +93,14 @@ require('cypress-xpath');
 * Verifies the restocked product in the list.
 * Simulates file upload.
 
+**5.1. Handling Uncaught Exceptions**
+
+``
+Cypress.on('uncaught:exception', (err, runnable) => {
+        return false;
+    });
+``
+
 ## Mocha
 * describe(): To group tests.
 * it(): To define an individual test case.
