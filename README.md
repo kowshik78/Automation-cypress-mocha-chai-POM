@@ -1,4 +1,4 @@
-<h1>Cypress Automation Framework for E-Commerce</h1>
+<h1>Cypress Automation Framework</h1>
 <h2>web.cloudapper.com</h2>
 
 This repository contains a Cypress-based test automation framework designed to test various product functionalities like product information, pricing, stock management, and file uploads for an e-commerce website.
