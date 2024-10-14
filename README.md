@@ -14,11 +14,7 @@ This repository contains a Cypress-based test automation framework designed to t
 ## Project Setup
 * Clone the repository:
 ```
-git clone https://github.com/your-repo/cypress-ecommerce-automation.git
-```
-* Navigate into the project directory:
-```
-cd cypress-ecommerce-automation
+git clone https://github.com/kowshik78/Automation-cypress-mocha-chai-POM.git
 ```
 * Install dependencies:
 ```
