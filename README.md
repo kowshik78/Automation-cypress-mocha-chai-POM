@@ -29,6 +29,10 @@ npm install cypress --save-dev
 npm install cypress-file-upload --save-dev
 npm install cypress-xpath --save-dev
 ```
+* Open Cypress test runner: To run Cypress with the test runner (GUI), use:
+```
+npx cypress open
+```
 * Open Cypress test runner:
 ```
 npx cypress open/run
